@@ -21,6 +21,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+	port:3000,
     contentBase: './',
     watchOptions: {
       aggregateTimeout: 300,
