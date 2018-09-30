@@ -6,7 +6,7 @@ class SearchBar extends Component{
 		this.state = {term:''};
 	}
 	render(){
-		return ( <div className="search-bar"><input focus=true  placeholder="Search" value={this.state.term} onChange= {event => this.onSearchChange(event.target.value)} />
+		return ( <div className="search-bar"><input  placeholder="Search" value={this.state.term} onChange= {event => this.onSearchChange(event.target.value)} />
 			
 			</div>);
 	}
